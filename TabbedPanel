@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+<title>This is SpryTabbedPanel Test</title>
+<body>
+
+
+
+
+<div id="TabbedPanels1" class="TabbedPanels">
+              <ul class="TabbedPanelsTabGroup">
+                <li class="TabbedPanelsTab" tabindex="0">About </li>
+                <li class="TabbedPanelsTab" tabindex="0">Map</li>
+                <li class="TabbedPanelsTab" tabindex="0">Local Area</li>
+                <li class="TabbedPanelsTab" tabindex="0">Hours</li>
+        </ul>
+              <div class="TabbedPanelsContentGroup">
+                <div class="TabbedPanelsContent"><span style="font-size: 14px">
+                
+                <h2 style="font-size: 16px">&nbsp;</h2>
+</div>
+               
+             
+                
+                <div class="TabbedPanelsContent"><p>&nbsp;</p><p><p><iframe width="538" height="475" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=CashMax,+Main+Street,+Bridgeport,+OH&amp;aq=0&amp;oq=cashmax,+brid&amp;sll=40.365277,-82.669252&amp;sspn=5.532336,10.612793&amp;ie=UTF8&amp;hq=CashMax,&amp;hnear=Main+St,+Bridgeport,+Ohio&amp;ll=40.072279,-80.741706&amp;spn=0.005427,0.010364&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=14079830711615874137&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=CashMax,+Main+Street,+Bridgeport,+OH&amp;aq=0&amp;oq=cashmax,+brid&amp;sll=40.365277,-82.669252&amp;sspn=5.532336,10.612793&amp;ie=UTF8&amp;hq=CashMax,&amp;hnear=Main+St,+Bridgeport,+Ohio&amp;ll=40.072279,-80.741706&amp;spn=0.005427,0.010364&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=14079830711615874137" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                
+
+                <p stlye
+                <p style="color: #0CO; font-size: 14px; font-family:Arial, Helvetica, sans-serif;">DIRECTIONS FROM X</p>
+                <p style="color: #000; font-size: 12px; font-family:Arial, Helvetica, sans-serif;">directions go here.....</p>
+                <p style="color: #0CO; font-size: 14px; font-family:Arial, Helvetica, sans-serif;">DIRECTIONS FROM X2</p>
+                <p style="color: #000; font-size: 12px; font-family:Arial, Helvetica, sans-serif;">directions go here.....</p>
+                </div>
+              	<div class="TabbedPanelsContent">Content 4</div>
+                <div class="TabbedPanelsContent">Content 2</div>
+              </div>
+      </div>
+            <h2>&nbsp;</h2>
+<h3>&nbsp;</h3>
+<h3>&nbsp;</h3>
+<div></div>
+
+</body>
+</html>

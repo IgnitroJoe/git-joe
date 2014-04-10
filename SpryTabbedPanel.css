@@ -1,0 +1,227 @@
+.TabbedPanels {
+	overflow: hidden;
+	padding: 0px;
+	clear: none;
+	width: 479px; 
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: normal;
+
+}
+
+.TabbedPanelsTabGroup {
+	border-bottom: 1px solid #707070;
+	width: 490px;
+	height: 44px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+@-ms-document url-prefix(){
+
+.TabbedPanelsTabGroup {
+	border-bottom: 1px solid #707070;
+	width: 490px;
+	height: 48px;   
+    }
+
+}
+
+
+@media screen (-webkit-min-device-pixel-ratio:0) {
+
+.TabbedPanelsTabGroup {
+	border-bottom: 1px solid #707070;
+	width: 490px;
+	height: 46px;  
+	outline: none; 
+    }
+
+}
+
+
+
+
+
+
+
+@-moz-document url-prefix(){
+
+.TabbedPanelsTabGroup {
+	border-bottom: 1px solid #707070;
+	width: 490px;
+	height: 46px;   
+    }
+}
+
+
+
+
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	background-color: #000;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	width: 90px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #FFF;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	outline: none;
+
+}
+
+
+.TabbedPanelsTabHover {
+	background-color: #FFF;
+	color: #8cc63e;
+	outline: none;
+}
+
+
+.TabbedPanelsTabSelected {
+	background-color: #FFF;
+	color: #8cc63e;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #EEE;
+	outline: none;
+}
+
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+	outline: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	font-size: 10px;
+	width: 500px;
+
+	
+}
+
+
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 0px;
+	height: 575px;
+	height: 900px;
+	margin-right: 5px;
+	background-color: #FFF;
+	text-align: left;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	width: 490px;
+}
+
+
+.TabbedPanelsContentVisible {
+	color: #000;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 9px;
+}
+
+
+
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+	width: 540px;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+	 outline: none;
+}
+
